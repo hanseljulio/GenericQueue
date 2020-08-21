@@ -1,23 +1,24 @@
 # GenericQueue
-Generic Queue - for practice
-Created May 17th, 2019
+* Generic Queue - for practice
+* Created May 17th, 2019
 
 -------------------------------------------------------------------------------
 ## Overview
-This is a program to test out and practice Generic Queues, using the E generic.
+* This is a program to practice the implementation of Generic Queue.
+* Data structure is made using the E generic.
 
 -------------------------------------------------------------------------------
 ### Classes
 1. Main.java 
  * Class for the main driver, contains function testing
  * Functions:
-   * testPush(Queue<E> queue, E value)
+   * testPush(Queue< E > queue, E value)
      * This function test the functionality of the push method
-   * testRemove(Queue<E> queue, int index)
+   * testRemove(Queue< E > queue, int index)
      * This function test the functionality of the remove method
-   * testRemoveDuplicate(Queue<E> queue)
+   * testRemoveDuplicate(Queue< E > queue)
      * This function will test the functionality of the remove duplicate method
-   * testRemoveAll(Queue<E> queue, E value)
+   * testRemoveAll(Queue< E > queue, E value)
      * This function will test the functionality of the remove all method
  
  
@@ -43,8 +44,8 @@ This is a program to test out and practice Generic Queues, using the E generic.
    * size()
      * This function will return the size of the array
    * equals(Object obj)
-     * This function will check for equality
+     * This function will check for equality between two generic queues
    * get(int index)
-     * This function will return the value at the given index
+     * This function will return the value at the given index of data type E
    * expandSize()
      * This function will expand the size of the array
